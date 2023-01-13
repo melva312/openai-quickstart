@@ -1,5 +1,5 @@
 # Pet Name Generator App using OpenAI and Docker
-# Tested By Jimmy BL
+# Build/Tested By Jimmy BL
 # 2023-01-13
 
 This is an example pet name generator app used in the OpenAI API [quickstart tutorial](https://beta.openai.com/docs/quickstart). It uses the [Next.js](https://nextjs.org/) framework with [React](https://reactjs.org/). 
