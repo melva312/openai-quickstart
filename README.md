@@ -14,7 +14,7 @@ This is an example pet name generator app used in the OpenAI API [quickstart tut
 1. Clone this repository
 
 ```
-git clone https://github.com/ajeetraina/openai-quickstart-node
+git clone https://github.com/melva312/openai-quickstart
 ```
 
 2. Open app.js file and add API Keys
@@ -31,13 +31,13 @@ openai.apiKey = "YOUR_API_KEY";
 3. Building the Chat GPT Docker Image
 
 ```
-docker build -t ajeetraina/chatbot-docker .
+docker build -t melva312/openai-quickstart .
 ```
 
 4. Running the Chatbot container
 
 ```
-docker run -d -p 8080:8080 ajeetraina/chatbot-docker
+docker run -d -p 8080:8080 melva312/openai-quickstart
 ```
 
 You should now be able to access the app at [http://localhost:3000](http://localhost:3000)
